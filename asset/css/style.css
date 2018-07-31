@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body,
+html {
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.d-flex picture {
+    width: 300px;
+    flex: auto;
+    cursor: pointer;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden
+}
+
+
+/* xs */
+
+@media screen and (max-width: 763px) {
+    .nav .nav-link {}
+    row col-md-6 p #head1 {
+        font-size: 28px;
+    }
+}
+
+
+/* sm */
+
+@media screen and (min-width: 768px) {
+    .row .col-md-6 p #head1 {
+        font-size: 3em !important;
+    }
+}
+
+
+/* md */
+
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1.2em;
+    }
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
